@@ -1,7 +1,25 @@
 .logo{
-    text-indent: 110%;
+    text-indent: 3000%;
     white-space: nowrap;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-image: url('../img/d’Perfume.png');
+    background-image: url('../img/layout/d’Perfume.png');
+}
+.headerButton{
+    border: none;
+    margin-right: 3px;
+}
+@media (max-width:768px){
+    .bg-gray44{
+        background-color: #707070;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .header{
+        padding: 0;
+    }
+    .navbar-nav{
+        padding-right: 0;
+    }
 }

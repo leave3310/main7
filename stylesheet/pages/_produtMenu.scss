@@ -1,0 +1,16 @@
+.nav-item{
+    a{
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 28px;
+    }
+}
+
+.pagborder{
+    border-bottom: 2px $primary solid;
+}
+@media (max-width:768px){
+    .mb-60{
+        margin-bottom: 40px;
+    }
+}

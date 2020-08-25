@@ -1,18 +1,24 @@
 .bg-fabulous{
-    background-image: url('../img/fabulous.png');
+    background-image: url('../img/layout/fabulous.png');
     background-size: cover;
     height: 600px;
 }
 .mt-312{
     margin-top: 312px;
 }
-.form-border{
-    border: 2px border-primary solid;
+
+.formborder{
+    border: 2px #916000 solid;
 }
-.mr-20{
-    margin-right: 20px;
+
+.form-control{
+    border-radius: 0;
 }
-.my-36{
-    margin-right: 36px;
-    margin-left: 36px;
+.btn{
+    border-radius: 0;
+}
+@media (max-width: 768px){
+    .width-180{
+        width: 180px;
+    }
 }

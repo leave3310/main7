@@ -1,39 +1,21 @@
 .bannerIndex{
-    background-image: url('../img/bannerIndex.png');
+    background-image: url('../img/indexPage/bannerIndex.png');
     margin-bottom: 60px;
     background-size: cover;
     height: 870px;
 }
-.text-40{
-    font-size: 40px;
-    font-weight: bold;
-}
 .btn-width{
-    width: 350px;
-    font-size: 20px;
-    font-weight: bold;
+    width: 270px;
 }
+
 .img-right{
     text-align: right;
 }
-.training-padding{
-    padding: 92px 0;
-}
-.training-text{
-    padding: 52px 0;
-}
-.training-button{
-    margin-top: 60px;
-}
-.mb-60{
-    margin-bottom: 60px;
-}
 .bg-gray{
     background-color: #E0E0E0;
-    padding: 40px 0;
 }
 .bg-apple{
-    background-image: url('../img/apple.png');
+    background-image: url('../img/indexPage/apple.png');
 }
 .position-center{
     position: absolute;
@@ -42,4 +24,7 @@
 }
 .text-24{
     font-size: 24px;
+}
+del{
+    color: $success;
 }
