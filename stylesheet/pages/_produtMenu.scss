@@ -9,8 +9,14 @@
 .pagborder{
     border-bottom: 2px $primary solid;
 }
+.menuFont{
+    font-size: 24px;
+}
 @media (max-width:768px){
     .mb-60{
         margin-bottom: 40px;
+    }
+    .menuFont{
+        font-size: 20px;
     }
 }
