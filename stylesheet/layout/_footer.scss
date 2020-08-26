@@ -6,7 +6,6 @@
 .mt-312{
     margin-top: 312px;
 }
-
 .formborder{
     border: 2px #916000 solid;
 }
@@ -17,8 +16,14 @@
 .btn{
     border-radius: 0;
 }
+.rights{
+    font-size: 14px;
+}
 @media (max-width: 768px){
     .width-180{
         width: 180px;
+    }
+    .last{
+        padding: 0;
     }
 }
