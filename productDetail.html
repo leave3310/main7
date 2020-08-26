@@ -94,11 +94,32 @@
                                     <option value="3">3</option>
                                     <option value="4">4</option>
                                 </select>
-                                <button type="submit" class=" px-40 addCart btn btn-secondary mh-100">加入購物車</button>
+                                <button type="button" class=" px-40 addCart btn btn-secondary mh-100"
+                                    data-toggle="modal" data-target="#addToCart">加入購物車</button>
+                                <div class="modal fade" id="addToCart">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-body text-secondary text-center">
+                                                已加入購物車
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </form>
                         <p class="mb-md-80 mb-40">
-                            <i class="fas fa-heart mr-1 text-primary"></i>加入我的收藏ddd
+                            <span class="addfav" data-toggle="modal" data-target="#addToCart">
+                                <i class="fas fa-heart mr-1 text-primary"></i>加入我的收藏
+                            </span>
+                        <div class="modal fade" id="addToCart">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body text-secondary text-center">
+                                        已加入我的收藏
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         </p>
                         <h6 class="mb-8">商品購買須知</h6>
                         <div class="mb-20">
@@ -129,12 +150,32 @@
                                 <option value="3">3</option>
                                 <option value="4">4</option>
                             </select>
-                            <button type="submit" class=" px-40 addCart btn btn-secondary mh-100">加入購物車</button>
-
+                            <button type="button" class=" px-40 addCart btn btn-secondary mh-100" data-toggle="modal"
+                                data-target="#addToCart">加入購物車</button>
+                            <div class="modal fade" id="addToCart">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body text-secondary text-center">
+                                            已加入購物車
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </form>
                     <p class="mb-md-80 mb-40">
-                        <i class="fas fa-heart mr-1 text-primary"></i>加入我的收藏
+                        <span class="addfav" data-toggle="modal" data-target="#addToCart">
+                            <i class="fas fa-heart mr-1 text-primary"></i>加入我的收藏
+                        </span>
+                    <div class="modal fade" id="addToCart">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body text-secondary text-center">
+                                    已加入我的收藏
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     </p>
                     <h6 class="mb-8">商品購買須知</h6>
                     <div class="mb-20">
